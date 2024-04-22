@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #e5b157;
+}
+
+.mainTitle {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #dbcba3;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: #e5b157;
+}
+
+.FAQ {
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    color: #dbcba3;
+    text-align: left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+.mainP {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #dbcba3;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+
+nav {
+   background-color: #dbcba3;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #e6cc00;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.mainTitle {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.mainP {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu-icon {
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    background: #444;
+    transition: left 0.3s;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 60px;
+    padding: 20px;
+}
+
+.sidebar.active {
+    left: 0;
+}
