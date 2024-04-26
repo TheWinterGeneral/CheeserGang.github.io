@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-console.log("Napoleonic is fat")
+
 
 
 var sidebar = document.getElementById("sidebar");
