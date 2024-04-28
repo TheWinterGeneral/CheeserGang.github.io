@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     var faqsSection = document.getElementById('faqs');
-    var sidebar = document.getElementById("sidebar")
+    var sidebar = document.getElementById("sidebar");
 
     document.querySelector('nav ul li a').addEventListener('click', function (event) {
         event.preventDefault();
@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
-	function toggleSidebar() {
-		if (sidebar.style.left === "0px") {
-			sidebar.style.left = "-250px";
-		} else {
-			sidebar.style.left = "0px";
-		}
-	}
+	
 });
 
 
-
+function toggleSidebar() {
+	if (sidebar.style.left === "0px") {
+		sidebar.style.left = "-250px";
+	} else {
+		sidebar.style.left = "0px";
+	}
+}
