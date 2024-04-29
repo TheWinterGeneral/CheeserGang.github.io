@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	
 });
-
+a
 
 function toggleSidebar() {
 	if (sidebar.style.left === "0px") {
