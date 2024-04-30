@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// test to see if push success on linux
+// test to see if push success on linu
 function toggleSidebar() {
 	if (sidebar.style.left === "0px") {
 		sidebar.style.left = "-250px";
